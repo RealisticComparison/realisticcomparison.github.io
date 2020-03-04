@@ -5,11 +5,11 @@
 html {
     margin: 0;
     border: 0;
-    background: rgb(36,164,36);
-    background: -moz-linear-gradient(90deg, rgba(36,164,36,1) 0%, rgba(45,72,121,1) 100%);
-    background: -webkit-linear-gradient(90deg, rgba(36,164,36,1) 0%, rgba(45,72,121,1) 100%);
-    background: linear-gradient(90deg, rgba(36,164,36,1) 0%, rgba(45,72,121,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#24a424",endColorstr="#2d4879",GradientType=1);
+    background: rgb(0,255,136);
+    background: -moz-linear-gradient(90deg, rgba(0,255,136,1) 0%, rgba(6,255,0,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(0,255,136,1) 0%, rgba(6,255,0,1) 100%);
+    background: linear-gradient(90deg, rgba(0,255,136,1) 0%, rgba(6,255,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00ff88",endColorstr="#06ff00",GradientType=1);
 }
 
 body {
@@ -19,21 +19,42 @@ body {
 
 .titleLogo {
     height: 7vh;
-    vertical-align: center;
+    vertical-align: middle;
 }
 
 .titleText {
-    display: inline-block;
+    font-size: 2.5vh;
+    margin-left: 1vw;
+    padding-top: 10vh;
     vertical-align: middle;
-    line-height: normal;
 }
 
 .title {
-    height: 8vh;
+    width: 20vw;
+    top: 3vh;
+    left: 40vw;
+    position: absolute;
+    display: inline-block;
     background-color: white;
+    padding-top: 2vh;
     border-radius: 3vh;
-    padding-left: 3vh;
-    padding-right: 3vh;
     text-align: center;
-    line-height: 8vh;
+    height: 8vh;
+    padding-bottom: 0.7vh;
+    overflow: hidden;
+    text-overflow: hidden;
+}
+
+.central {
+    width: 80vw;
+    top: 20vh;
+    left: 10vw;
+    position: absolute;
+    display: inline-block;
+    background-color: white;
+    padding-top: 2vh;
+    border-radius: 3vh;
+    text-align: center;
+    height: 25vh;
+    padding-bottom: 0.7vh;
 }
