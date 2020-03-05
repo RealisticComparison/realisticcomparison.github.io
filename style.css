@@ -27,12 +27,13 @@ body {
     margin-left: 1vw;
     padding-top: 10vh;
     vertical-align: middle;
+    color: #94B2E8; 
 }
 
 .title {
-    width: 20vw;
+    width: 30vw;
     top: 3vh;
-    left: 40vw;
+    left: 35vw;
     position: absolute;
     display: inline-block;
     background-color: white;
@@ -57,4 +58,26 @@ body {
     text-align: center;
     height: 25vh;
     padding-bottom: 0.7vh;
+    padding: none;
+    margin: none;
+}
+
+@media (max-width: 1012px) {
+    .titleText {
+        display: none;
+    }
+}
+
+.centralLeft {
+    width: 40vw;
+    left: 10vw;
+    position: absolute;
+    display: inline-block;
+    background-color: white;
+    padding-top: 2vh;
+    border-radius: 3vh;
+    text-align: center;
+    height: 25vh;
+    padding-bottom: 0.7vh;
+    margin: none;
 }
